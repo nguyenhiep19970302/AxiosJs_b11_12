@@ -1,0 +1,11 @@
+.member {
+   background-color: $color-violet-2;
+   padding-top: $pd-5;
+}
+ 
+ //responsive
+ @include responsive("extra-large") {
+   .member {
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+   }
+}
